@@ -1,0 +1,15 @@
+
+Scenario: Add product HTC to cart, update the number of items and print the totals [90m# src/test/java/features/updateShoppingCart.feature:3[0m
+  [32mGiven [0m[32mI navigate to url [0m[32m[1m"https://demo.nopcommerce.com/"[0m                          [90m# StepDefinitions.i_navigate_to_url(java.lang.String)[0m
+  [32mThen [0m[32mI click on Add To Cart button of HTC product[0m                                [90m# StepDefinitions.i_click_on_add_to_cart_button_of_htc_product()[0m
+  [32mThen [0m[32mI click on Shopping Cart link in the top bar of the homepage[0m                [90m# StepDefinitions.i_click_on_shopping_cart_link_in_the_top_bar_of_the_homepage()[0m
+  [32mThen [0m[32mI print the product name of HTC product[0m                                     [90m# StepDefinitions.i_print_the_product_name_of_htc_product()[0m
+  [32mThen [0m[32mI print the subtotal price value of product HTC[0m                             [90m# StepDefinitions.i_print_the_subtotal_price_value_of_product_htc()[0m
+  [32mThen [0m[32mI print the shipping value of product HTC[0m                                   [90m# StepDefinitions.i_print_the_shipping_value_of_product_htc()[0m
+  [32mThen [0m[32mI print the tax value of product HTC[0m                                        [90m# StepDefinitions.i_print_the_tax_value_of_product_htc()[0m
+  [32mWhen [0m[32mI clear the number of items in the item box[0m                                 [90m# StepDefinitions.i_clear_the_number_of_items_in_the_item_box()[0m
+  [32mThen [0m[32mI update the number of items to [0m[32m[1m'2'[0m                                         [90m# StepDefinitions.i_update_the_number_of_items_to(java.lang.String)[0m
+  [32mThen [0m[32mI click on update shopping cart button[0m                                      [90m# StepDefinitions.iClickOnUpdateShoppingCartButton()[0m
+  [32mThen [0m[32mI print the updated subtotal price value of product HTC[0m                     [90m# StepDefinitions.i_print_the_updated_subtotal_price_value_of_product_htc()[0m
+  [32mThen [0m[32mI print the updated shipping value of product HTC[0m                           [90m# StepDefinitions.i_print_the_updated_shipping_value_of_product_htc()[0m
+  [32mThen [0m[32mI print the updated tax value of product HTC[0m                                [90m# StepDefinitions.i_print_the_updated_tax_value_of_product_htc()[0m
